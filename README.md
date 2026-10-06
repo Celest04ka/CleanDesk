@@ -13,28 +13,15 @@ Windows has a built-in "Automatically hide the taskbar" option, but the taskbar 
 
 ## Features
 
-- The taskbar really stays hidden and doesn't slide out on mouse hover.
 - Desktop icons are toggled with the same switch as *right-click the desktop → View → Show desktop icons*.
 - Hotkeys are set in a plain text file and apply as soon as you save it.
-- English and Russian interface, picked from your Windows language.
 - Optional start with Windows.
-- Safe: the taskbar comes back when you exit, and even after a crash the next launch restores it.
 - No installer and no dependencies. It's a single ~130 KB exe that uses .NET Framework 4, which is already part of Windows 10 and 11.
 
-## Download
-
-1. Open [Releases](../../releases/latest) and download `CleanDesk-vX.Y.Z.zip`.
-2. Unzip it anywhere and run `CleanDesk.exe`. There is no window, only an icon in the tray near the clock.
-
-> Windows may show *"Windows protected your PC"* because the exe isn't code-signed. Click **More info → Run anyway**.
-> Release builds are compiled from this source code by GitHub Actions (see [the workflow](.github/workflows/build.yml)).
-
-## Usage
-
-- Press **Ctrl+Alt+L** to hide or show the taskbar. Left-clicking the tray icon does the same.
-- Press **Ctrl+Alt+K** to hide or show the desktop icons.
-- Right-click the tray icon for both toggles, **Settings…**, **Start with Windows** and **Exit**.
-- When you exit, the taskbar comes back. The desktop icons setting is a regular Windows setting, so it stays as you left it.
+- **Ctrl+Alt+L** hides or shows the taskbar. Left-clicking the tray icon does the same.
+- **Ctrl+Alt+K** hides or shows the desktop icons.
+- Right-click the tray icon for a menu with both toggles, **Settings…**, **Start with Windows** and **Exit**.
+- When you exit, the taskbar comes back. Desktop icons are a regular Windows setting, so they stay as they are after you exit.
 
 ## Settings
 
